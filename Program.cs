@@ -4,7 +4,14 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Hello, World!");
-    }
-}
-    
+        string opcion = "";
+        double saldo = 1000;
+
+        Console.WriteLine("--- CAJERO AUTOMATICO ---");
+        Console.WriteLine("1. Ver saldo");
+        Console.WriteLine("2. Depositar");
+        Console.WriteLine("3. Retirar");
+        Console.WriteLine("4. Salir");
+
+        Console.Write("Seleccione una opcion: ");
+        opcion = Console.ReadLine() ?? "";
